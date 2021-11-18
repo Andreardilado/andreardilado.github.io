@@ -1,0 +1,272 @@
+/*<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+</style>*/
+body{
+    background-color:rgb(241, 230, 230);
+    margin: 0px;
+    padding: 0px;     
+}
+/*barra separadora1*/
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #008037;
+    background-color:  #ffeee9;
+}
+
+body header .barra{
+    height:min-content; 
+}
+
+body header .barra figure{
+    width:3%;
+    display: flex;      
+}
+
+/*logo*/
+body header .barra  figure img{
+    width: 450%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+/*título de página*/
+body header .barra figure h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;   
+}
+
+/*espacio entre el menú*/
+body header  nav{
+    width:90%;
+    justify-items: end;
+    display: flex;
+}
+/*menú*/
+body header  nav ul{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+body header  nav ul li{ 
+    list-style: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+body header  nav ul a{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;    
+}
+
+main{
+    background-color:#ffeee9;
+    margin: 0px;
+    padding: 0px;
+    
+}
+/*texto imgen big1*/
+main .container1{
+    display: flex;
+    background: #ffeee9;
+    justify-content: center;
+    padding: 60px; 
+    font-family:'Tenor Sans', sans-serif;
+    color: #008037;
+    font-size:100px;
+    flex-direction: row;  
+    border-bottom:  2px solid #008037;    
+}
+main .container1 img{
+    height: 100%;
+    width: 100%;
+}
+
+main .container1  figcaption{
+    margin: center;
+    color:  #008037;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    display: center;
+    text-align: center;
+    font-size: 24px;
+    
+    flex-direction: row;
+}
+
+.container2 {
+    margin: auto;
+    background-color:#ffeee9;
+    width: 1500px;
+    padding: 30px;
+    
+}
+
+ul li{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+  
+}
+
+.slider{
+    position: relative;
+    width: 800px;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+.slider li{
+    position: absolute;
+    left: 0;
+    top: 0%;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+.slider li img{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 10px;   
+}
+
+.slider li:first-child{
+    opacity:1;
+}
+
+.slider li:target{
+    opacity:1;
+}
+
+.menu{
+    margin: 20px;
+    text-align: center;
+  
+    
+}
+
+.menu li{
+    display: inline-block;
+    justify-content: center;
+    
+}
+
+.menu li a{
+    color: #d37a62;
+    text-decoration: none;
+    background-color: #ffeee9;
+    padding: 10px;
+    width: 20px;
+    height: 60px;
+    font-size: 60px;
+    border-radius: 100%; 
+  
+    
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #008037;
+    background-color:  #ffeee9;
+
+}
+
+.container3 .uno{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-display: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: #008037;
+    
+}
+.container3 .dos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-display: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: #008037;
+}
+.container3 .tres{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-display: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: #008037;
+    justify-content: center;
+    
+}
+
+.container3 div figure img{  
+    width: 100%;
+}
+
+.container4{
+    padding: 5%;
+    width: 90%;
+}
+
+.container4 img{
+    float: right;
+    flex-direction: row;
+    height: 330px;
+    
+}
+
+.container4 .texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+   
+    width: 60%;
+    color: #008037;
+    padding: 2%;
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer{
+     background-color: #04391b; 
+     width: 100%;
+     font-family: 'Open Sans', sans-serif;
+    block-size: 400;
+    
+}
+
+footer div{
+     color: #ffeee9;
+     font-size: 1.3em;
+     text-align: center;
+    font-weight: 400;
+
+}

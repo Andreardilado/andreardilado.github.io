@@ -1,0 +1,157 @@
+body{
+    background-color:rgb(241, 230, 230);
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0%;  
+}
+
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #036d5b;
+    background-color:  rgb(241, 230, 230);
+}
+
+body header .barra{
+    height:min-content;
+  
+}
+
+body header .barra figure{
+    width:3%;
+    display: flex;   
+}
+
+body header .barra  figure img{
+    width: 400%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+body header .barra figure h1{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;   
+}
+
+body header  nav{
+    width:100%;
+    justify-items: end;
+    display: flex;
+}
+
+body header  nav ul{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+body header  nav ul li{ 
+    list-style: none;
+    color: #000000;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3em;
+}
+
+body header  nav ul a{
+    color: #000000;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3em;   
+    list-style: none; 
+}
+
+main .container1{
+    font-family: 'Tenor Sans', sans-serif; 
+    color:#008037;
+    flex-direction: row;
+    display:flex;
+    width: 90%;
+    padding: 5%;
+    overflow: hidden;
+}
+main .container1 div {
+    font-size: 1.3em; 
+    width: 90%; 
+    float: left;
+}
+main div h2{
+    font-size: 1.5em;
+    
+}
+main p{
+    font-size: 1.9em;
+    
+}
+
+main .container1 div img{
+    width: 50%;
+    float:right;
+
+}
+
+/*
+main .container2{
+    background-color: blueviolet;
+    width: 50%;
+    
+
+}
+
+main .container2 img{
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+    display:flex ;*/
+    
+    
+
+
+main .container3{
+    font-family: 'Tenor Sans', sans-serif; ;
+    color:  #008037;
+    flex-direction: row;
+    display: flex;
+    padding: 80px;
+    font-size: 3.0em;
+    overflow: hidden;
+}
+main .container3 .mision{
+    float: left;
+    text-align: justify;
+    width: 50%;
+    padding:50px;
+    
+
+}
+main .container3 .vision{
+    float:right;
+    text-align: justify;
+    width: 50%;
+    padding:50px;
+
+}
+
+
+
+ 
+
+
+footer{
+    background-color: #04391b; 
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    block-size: 400;
+   
+}
+
+footer div{
+    color: #ffeee9;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 400;}
